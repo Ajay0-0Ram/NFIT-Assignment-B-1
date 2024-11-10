@@ -81,7 +81,7 @@ int main() {
     ofstream data("signals.dat"); // File to store the data
 
     double x_max = 10; // Maximum distance or time for plotting
-    double x_step = 0.1; // Step size
+    double x_step = 0.005; // Step size
 
     // Generate signal values over a range and write to file
     for (double x = 0; x <= x_max; x += x_step) {
